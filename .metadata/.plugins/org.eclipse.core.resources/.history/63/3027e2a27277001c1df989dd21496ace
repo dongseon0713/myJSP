@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 및 링크</title>
+</head>
+<body>
+	<!-- 페이지 이미지를 넣을 때, img 태그 -->
+	<!-- src=url 이미지 위치, alt="text" 이미지로 로드 실패 시 참조 -->
+	<img src="sunset.jpg" alt="">
+</body>
+</html>
