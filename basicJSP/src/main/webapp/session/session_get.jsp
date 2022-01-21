@@ -34,7 +34,8 @@
     	//getid()
     	String _session = session.getId();
     	
-    	
+    	//getAttributeName()
+    	//Enumeration<String> test = session.getAttributeNames();
     	
 
     	
