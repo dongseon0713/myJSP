@@ -9,7 +9,7 @@
 <body>
 	<!-- form태그를 사용하여 ID,PW를 입력 받고 처리하는 JSP -->
 	<form action="send_ex02.jsp" method="post">
-		
+		    
 		ID : <input type="text" name="id"><br>
 		PW : <input type="password" name="pw"><br>
 		<input type="submit" value="login">

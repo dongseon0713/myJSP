@@ -2,7 +2,14 @@
     pageEncoding="UTF-8"%>
     
     <%
-    	response.sendRedirect("send_ex03.jsp");
+    request.setCharacterEncoding("utf-8");    
+    String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	
+	request.setAttribute("id", id);
+	request.setAttribute("pw", pw);
+	
+	request.getRequestDispatcher("send_ex03.jsp").include(request, response);
     %>
 <!DOCTYPE html>
 <html>
